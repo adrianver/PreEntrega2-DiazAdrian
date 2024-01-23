@@ -1,0 +1,31 @@
+.contenedorItem {
+text-align: center;
+background-color: rgb(255, 255, 252);
+}
+
+.descripcion {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:bolder;
+font-size: 1.0rem;
+justify-content:center;
+margin: 40px;
+}
+
+.volver {
+color: rgb(210, 181, 181);
+text-decoration: none;
+font-size: 1.3rem;
+padding: 40px;
+}
+
+
+.idescripcion {
+width: 250px;
+border: 30px solid black;
+
+}
+.Precio {
+font-size: 15px;
+text-align: center;
+
+}

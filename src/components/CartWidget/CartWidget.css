@@ -1,0 +1,10 @@
+.carrito {
+width: 30%;
+border-radius: 35%;
+border: rgb(225, 65, 91) 5px solid;
+}  
+
+.solicitud {
+color: white;
+text-shadow: 5px 5px 5px rgb(241, 232, 232);
+}
