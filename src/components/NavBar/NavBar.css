@@ -1,41 +1,52 @@
 
-.logo{
-border-radius: 35%;
-border: #1b3039 5px solid; 
-transition: all 0.4s;
-border: rgb(225, 65, 91) 5px solid;
+* {
+margin: 0;
+padding: 0;    
 }
 
-
-img:hover{
-    transform: scale(1.2);
+html, body {
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+background-color: white;
 }
 
-header {
-
-display: flex;
-align-items: center;
-justify-content: space-around;
-background-color: #1b3039;
-cursor: pointer;
+.logo {     
+height: 100px;
+width: 100px;
+transition: width 4s, height 4s;
+border-radius: 30%;
+border: 5px solid #5d6869;
+    
 }
 
+.logo:hover {
+width: 90px;
+height: 90px;
+}
 
-li {
-
-display: inline-block;   
-text-transform: uppercase;
-font-size:larger;
-text-shadow: 5px 5px 5px rgb(241, 232, 232);
-margin: 1rem;
-
+   
+.navbar {
+width: 100%;
+background-image: linear-gradient(to left,rgb(83, 120, 106), rgb(102, 102, 102));
+}
+ 
+.navbar-nav li a{
+       
+    color: rgb(238, 238, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.20rem;
+    text-shadow: 5px 5px 5px rgb(241, 232, 232); 
+    text-transform: uppercase; 
+    font-weight: bolder;
+    margin-left: 100px;
 }
 
 
 .Link {
-font-family: Arial, Helvetica, sans-serif;
-cursor: pointer;
-color: white;
-text-decoration: none;
-
-}
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+    }

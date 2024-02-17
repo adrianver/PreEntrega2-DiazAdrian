@@ -12,10 +12,17 @@
 
 .cardProducto img {
 width: 150px;
-}
+height: 200px;
 
+}
 .Nombre {
 font-size: 20px;
 text-align: center;
 
+}
+
+img:hover {
+
+    width: 200px;
+    height: 250px;
 }
